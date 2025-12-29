@@ -30,3 +30,25 @@ This project performs a comprehensive **sales analysis** on a supermarket datase
 
 ## Project Structure
 
+---
+
+## Key Insights
+- **Top 5 Product Lines by Sales:**  
+  1. Food and Beverages  
+  2. Sports and Travel  
+  3. Electronic Accessories  
+  4. Fashion Accessories  
+  5. Home and Lifestyle  
+
+- **Monthly Sales Trends:**  
+  - Visualized growth and seasonal patterns in sales  
+  - Identified months with peak revenue  
+
+---
+
+## Installation & Usage
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/Sales-Analytics-Project.git
+   cd Sales-Analytics-Project
+
