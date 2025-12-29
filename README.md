@@ -1,23 +1,32 @@
 # Sales Analytics Project
 
 ## Project Overview
-- Analyze sales data from a supermarket dataset
-- Clean data, perform analysis, and visualize insights
+This project performs a comprehensive **sales analysis** on a supermarket dataset. The goal is to extract actionable insights by **cleaning the data**, performing **analysis**, and generating **visualizations** to support business decision-making.
+
+---
 
 ## Steps Performed
-1. Data Cleaning (`data_cleaning.py`)
-2. Data Analysis (`analysis.py`)
-3. Data Visualization (`visualization.py`)
+1. **Data Cleaning** (`data_cleaning.py`)  
+   - Removed duplicates and handled missing values  
+   - Ensured dataset consistency for analysis  
+
+2. **Data Analysis** (`analysis.py`)  
+   - Generated summary statistics  
+   - Identified **top 5 product lines** by total sales  
+   - Calculated monthly sales trends  
+
+3. **Data Visualization** (`visualization.py`)  
+   - Created line charts for monthly sales trends  
+   - Saved charts in `/outputs` folder for reporting  
+
+---
 
 ## Tools & Libraries
-- Python 3.14
-- Pandas, Matplotlib, Seaborn
-- VS Code
+- **Programming Language:** Python 3.14  
+- **Libraries:** Pandas, Matplotlib, Seaborn  
+- **IDE:** VS Code  
 
-## Output
-- Cleaned CSV: `/data/sales_data_cleaned.csv`
-- Chart: `/outputs/monthly_sales_trend.png`
+---
 
-## Insights
-- Top 5 product lines by sales
-- Monthly sales trends
+## Project Structure
+
