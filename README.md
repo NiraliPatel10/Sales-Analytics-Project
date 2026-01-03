@@ -49,6 +49,6 @@ This project performs a comprehensive **sales analysis** on a supermarket datase
 ## Installation & Usage
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/<your-username>/Sales-Analytics-Project.git
+   git clone https://github.com/NiraliPatel10/Sales-Analytics-Project.git
    cd Sales-Analytics-Project
 
