@@ -1,50 +1,50 @@
 # Sales Analytics Project
 
-## Project Overview
-This project performs a comprehensive **sales analysis** on a supermarket dataset. The goal is to extract actionable insights by **cleaning the data**, performing **analysis**, and generating **visualizations** to support business decision-making.
+## Business Objective
+Analyze retail sales data to identify revenue trends, top products, and underperforming categories to support decision-making.
 
----
+## Tools & Skills
+- PostgreSQL: SQL joins, aggregations, window functions
+- Python: Data cleaning, EDA
+- Power BI: Dashboard design and KPI visualization
 
-## Steps Performed
-1. **Data Cleaning** (`data_cleaning.py`)  
-   - Removed duplicates and handled missing values  
-   - Ensured dataset consistency for analysis  
+## Dataset
+- Source: Synthetic retail dataset (AU-focused)
+- Tables: Sales, Customers, Products
+- Columns: customer_id, product_id, quantity, revenue, date
 
-2. **Data Analysis** (`analysis.py`)  
-   - Generated summary statistics  
-   - Identified **top 5 product lines** by total sales  
-   - Calculated monthly sales trends  
+## Approach
+1. Data cleaning in Python (handle missing values, normalize columns)
+2. SQL queries for KPI calculation:
+   - Total revenue by product and region
+   - Monthly revenue trend
+   - Top 10 customers
+3. Power BI dashboard:
+   - KPI cards
+   - Revenue trends
+   - Product and region filters
 
-3. **Data Visualization** (`visualization.py`)  
-   - Created line charts for monthly sales trends  
-   - Saved charts in `/outputs` folder for reporting  
+## Results & Insights
+- Top 5 products generate 55% of revenue
+- Revenue dips in Q2 highlight potential marketing opportunities
+- Certain regions underperform → promotional focus recommended
 
----
+## Business Impact
+- Improved inventory allocation
+- Targeted marketing strategies
+- Revenue optimization
 
-## Tools & Libraries
-- **Programming Language:** Python 3.14  
-- **Libraries:** Pandas, Matplotlib, Seaborn  
-- **IDE:** VS Code  
+## How to Run
+1. PostgreSQL database setup
+2. Run SQL scripts in `/sql`
+3. Load CSV data into Power BI
+4. Open dashboard PBIX file
 
----
-
-## Project Structure
-
----
-
-## Key Insights
-- **Top 5 Product Lines by Sales:**  
-  1. Food and Beverages  
-  2. Sports and Travel  
-  3. Electronic Accessories  
-  4. Fashion Accessories  
-  5. Home and Lifestyle  
-
-- **Monthly Sales Trends:**  
-  - Visualized growth and seasonal patterns in sales  
-  - Identified months with peak revenue  
-
----
+## File Structure
+- /data → CSV datasets
+- /sql → SQL scripts
+- /notebooks → Python EDA
+- /PowerBI → Dashboard file
 
 ## Installation & Usage
 1. Clone the repository:  
